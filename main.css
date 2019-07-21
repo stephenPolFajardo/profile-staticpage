@@ -4,6 +4,9 @@
   color: #f0faf9;
 }
 
+#more{
+  display: none;
+}
 
 img {
   border-radius: 50%;
@@ -20,6 +23,11 @@ img {
   position: relative;
   top: 18px;
   left: 10px;
+}
+
+.btn {
+  padding-top: 18px;
+  margin-left: 10px;
 }
 
 .header p, a {
