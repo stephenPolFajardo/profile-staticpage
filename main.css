@@ -1,0 +1,43 @@
+* {
+  font-family: monospace;
+  background-color: #000;
+  color: #f0faf9;
+}
+
+
+img {
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 auto;
+  height: 200px;
+}
+
+.header img {
+  background: #555;
+}
+
+.header h1, h3 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+.header p, a {
+  position: relative;
+  left :10px;
+  top: 18px;
+}
+
+.footer {
+  margin-top: 50px;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
