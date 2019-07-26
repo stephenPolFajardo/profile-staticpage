@@ -39,7 +39,8 @@ function onLoad() {
     element2.setAttribute('id','myProgress');
     element.setAttribute('class', 'column');
     element3.setAttribute('id', 'myBar');
-    element3.style.width = parseInt(skill[i].level)+"%";
+    element3.setAttribute('class', 'line');
+    element3.style.maxWidth = parseInt(skill[i].level)+"%";
     element3.innerHTML = skill[i].level+"%";
     element2.innerHTML = skill[i].name;
     document.getElementById('Skills').appendChild(element);

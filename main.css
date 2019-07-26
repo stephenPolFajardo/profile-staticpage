@@ -15,15 +15,70 @@
   display: block;
 }
 
-#myBar {
-  width: 1%;
-  height: 30px;
-  background-color: #00CED1;
-  text-align: center;
-  line-height: 30px;
-  border: 1px;
-  color: white;
+/*#myBar {*/
+/*  height: 33.33px;*/
+/*  background-color: #00CED1;*/
+/*  text-align: center;*/
+/*  line-height: 30px;*/
+/*  border: 1px;*/
+/*  color: white;*/
+/*}*/
+
+.line {
+  height: 25px;
+
+  line-height: 25px;
+  font-size: 14px;
+  color: #fff;
+  padding: 0 0 0 10px;
+  position: sticky;
+
 }
+
+.line:before {
+  content: '';
+  width: 1%;
+  position: absolute;
+  left: 0;
+  height: 25px;
+  top: 0;
+  z-index: -2;
+  background: #00CED1;
+}
+
+.line:after {
+  content: '';
+  background: #00CED1;
+  height: 25px;
+  transition: 0.8s;
+  display: block;
+  width: 100%;
+  animation: animate 2s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@keyframes animate {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+
+@-webkit-keyframes animate {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
 
 .column {
   float: left;
