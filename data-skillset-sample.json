@@ -1,0 +1,46 @@
+var skill = [
+  {
+    "name": "HTML",
+    "level": "100"
+  },
+  {
+    "name": "Javascript",
+    "level": "90"
+  },
+  {
+    "name": "CSS",
+    "level": "90"
+  },
+  {
+    "name": "PHP",
+    "level": "50"
+  },
+  {
+    "name": "Python",
+    "level": "70"
+  },
+  {
+    "name": "JSON",
+    "level": "80"
+  },
+  {
+    "name": "VueJS",
+    "level": "50"
+  },
+  {
+    "name": "AngularJS",
+    "level": "80"
+  },
+  {
+    "name": "NodeJS",
+    "level": "50"
+  },
+  {
+    "name": "MySql",
+    "level": "70"
+  },
+  {
+    "name": "PostgreSQL",
+    "level": "70"
+  }
+];

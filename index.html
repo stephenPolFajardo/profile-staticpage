@@ -5,21 +5,44 @@
     <title>Stephen Pol D. Fajardo</title>
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="data-skillset-sample.json"></script>
     <script src="main.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144334943-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144334943-1');
+</script>
+
   </head>
-  <body>
-    <div class="row header">
+  <body onload="onLoad()">
+    <div class="header">
         <img src="stephen.jpg" alt="avatar">
       <div class="center">
         <h1>Stephen Pol Fajardo</h1>
         <h3>Software Engineer</h3>
         <a href="stephen.pdf" download>Resume</a>
-        <p>To take up any challenging position when my <span id="dots">...</span><span id="more">knowledge can be utilized for the maximum benefit
-  of the organization. Open to new ideas and an attitude as well as potential to group and
-  implement new technologies.</span></p>
       </div>
-      <div class="btn">
+      <div class="tab">
+        <button class="tablinks active" onclick="openObj(event, 'Objective')">Objective</button>
+        <button class="tablinks" onclick="openObj(event, 'Skills')">Skills</button>
+        <button class="tablinks" onclick="openObj(event, 'Contact')">Contact</button>
+      </div>
+      <div id="Objective" class="tabcontent">
+         <p>To take up any challenging position when my <span id="dots">...</span><span id="more">knowledge can be utilized for the maximum benefit of the organization. Open to new ideas and an attitude as well as potential to group and
+        implement new technologies.</span></p>
+        <div class="btn">
         <button onclick="myFunction()" id="myBtn">Read more</button>
+        </div>
+      </div>
+      <div id="Skills" class="tabcontent row">
+      </div>
+      <div id="Contact" class="tabcontent">
+      <p>Email: pilarfajardo2328@gmail.com</p>
+      <p>Contact: 09171736912</p>
       </div>
     </div>
       <div class="footer">
