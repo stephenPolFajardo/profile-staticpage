@@ -33,7 +33,6 @@ function onLoad() {
   var parent = document.getElementById('Skills');
   for (var i = skill.length -1; i >= 0; i--){
     reverse = skill[i].name.split("").reverse().join("");
-    console.log(reverse);
     var element = document.createElement('div');
     var element2 = document.createElement('div');
     var element3 = document.createElement('div');
@@ -46,7 +45,7 @@ function onLoad() {
     element3.setAttribute('id', 'myBar');
     element3.setAttribute('class', 'line');
     element3.style.maxWidth = parseInt(skill[i].level)+"%";
-    element4.setAttribute('src', imgPath);
+    element4.setAttribute('src', skill[i].source);
     element4.setAttribute('class', 'img-skill');
     element5.setAttribute('id', 'back-color');
     var grade = skill[i].level;
@@ -69,7 +68,7 @@ function onLoad() {
       element3.innerHTML = skill[i].level+"%" + " " + "Insufficient";
     }
 
-    element2.innerHTML = skill[i].name;
+    //element2.innerHTML = skill[i].name;
     document.getElementById('Skills').appendChild(element);
     element.append(element2);
     element2.append(element4);

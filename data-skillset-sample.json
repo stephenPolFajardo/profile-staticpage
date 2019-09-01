@@ -1,46 +1,64 @@
 var skill = [
   {
     "name": "HTML",
-    "level": "100"
+    "source": "https://img.icons8.com/color/64/000000/html-5.png",
+    "level": 100
   },
   {
     "name": "Javascript",
-    "level": "90"
+    "source": "https://img.icons8.com/color/96/000000/javascript.png",
+    "level": 90,
   },
   {
     "name": "CSS",
-    "level": "90"
+    "source": "https://img.icons8.com/color/96/000000/css3.png",
+    "level": 90,
   },
   {
     "name": "PHP",
-    "level": "50"
+    "source": "https://img.icons8.com/officel/80/000000/php-logo.png",
+    "level": 50,
   },
   {
     "name": "Python",
-    "level": "70"
+    "source": "https://img.icons8.com/color/96/000000/python.png",
+    "level": 70
+  },
+  {
+    "name": "XML",
+    "source": "https://img.icons8.com/color/96/000000/xml-file.png",
+    "level": 90
   },
   {
     "name": "JSON",
-    "level": "80"
+    "source": "https://img.icons8.com/color/96/000000/json--v1.png",
+    "level": 80
   },
   {
     "name": "VueJS",
-    "level": "50"
+    "source": "",
+    "level": 50
   },
   {
     "name": "AngularJS",
-    "level": "80"
+    "source": "https://img.icons8.com/color/96/000000/angularjs.png",
+    "level": 80,
+    "exprience": [{"year": 2019,"month": 9}]
   },
   {
     "name": "NodeJS",
-    "level": "50"
+    "source": "https://img.icons8.com/color/96/000000/nodejs.png",
+    "level": 50
   },
   {
     "name": "MySql",
-    "level": "70"
+    "source": "https://img.icons8.com/color/96/000000/mysql.png",
+    "level": 70
   },
   {
     "name": "PostgreSQL",
-    "level": "70"
+    "source": "https://img.icons8.com/color/96/000000/postgreesql.png",
+    "level": 70
   }
 ];
+
