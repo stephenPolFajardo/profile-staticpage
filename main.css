@@ -24,7 +24,8 @@ table, th, td {
 }
 
 .img-skill {
-  width: 50%;
+  width: 64px;
+  height: 64px;
 }
 
 #myBar {
@@ -38,7 +39,6 @@ table, th, td {
   line-height: 25px;
   font-size: 14px;
   color: #fff;
-
   position: sticky;
 
 }
@@ -61,7 +61,7 @@ table, th, td {
   content: '';
   position: absolute;
   z-index: -2;
-  border-radius: 25px;
+
 }
 
 
